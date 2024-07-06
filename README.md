@@ -36,6 +36,43 @@ Run the program
   ./shortest_path
 ```
 
+## Example
+```bash
+┌──(Lixhr㉿Lixhr)-[~/Desktop/ASCII-maze-shortest-path]
+└─$ make test                                                                   
+./test.exp
+spawn ./shortest_path
+Please paste your ASCII maze (end it with a blank line):
+#S###################
+#    #    #     # # #
+### ### # ##### # # #
+#     # #   #       #
+# # ####### # ##### #
+# #       #   #     #
+### # ##### ### ### #
+# # # # # #   #   # #
+# ### # # # ### #####
+#           #       #
+###################E#
+
+Your walls seems to be '#'.
+Type Y to agree, else type your char : Y
+
+#S###################
+#... #    #     # # #
+###.### # ##### # # #
+#  .  # #   #.......#
+# #.####### #.#####.#
+# #...    #...#.....#
+### #.#####.###.### #
+# # #.# # #.  #.  # #
+# ###.# # #.###.#####
+#    .......#  .....#
+###################E#
+
+shortest path: 48
+```
+
 ## Contributing
 
 Contributions are always welcome!          
