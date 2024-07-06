@@ -1,0 +1,25 @@
+#!/usr/bin/expect
+
+spawn  ./shortest_path
+
+expect "Please paste your ASCII"
+
+
+send "#S###################\n"
+send "#    #    #     # # #\n"
+send "### ### # ##### # # #\n"
+send "#     # #   #       #\n"
+send "# # ####### # ##### #\n"
+send "# #       #   #     #\n"
+send "### # ##### ### ### #\n"
+send "# # # # # #   #   # #\n"
+send "# ### # # # ### #####\n"
+send "#           #       #\n"
+send "###################E#\n"
+send "\n"
+
+expect "Type Y"
+send "#\n"
+
+interact
+
